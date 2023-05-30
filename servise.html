@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Услуги</title>
+  </head>
+  <body>
+      <!-- header Menu start -->
+
+      <div class="container-fluid logo"></div>
+      <h1 class="text-center pb-2">Команда специалистов по дрессировке собак</h1>
+      <nav class="navbar navbar-expand-lg navbar-main">
+  
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="/index.html">Главная</a>
+            <div class="line-menu"></div>
+            <a href="#">Статьи</a>
+            <div class="line-menu"></div>
+            <a href="#">Наша команда</a>
+            <div class="line-menu"></div>
+            <a href="/servise.html">Услуги</a>
+            <div class="line-menu"></div>
+            <a href="#">Отзывы</a>
+          </div>
+        </div>
+        <span onclick="openNav()">
+          <span class="material-symbols-outlined menu">menu</span>
+        </span>  
+  
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto w-100 justify-content-center">
+            <li class="nav-item active mr-4">
+              <a class="nav-link" href="/index.html">Главная</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Статьи</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Наша команда</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="/servise.html">Услуги</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Отзывы</a>
+            </li>
+            <li>
+              <button onclick="document.location='index.html#signUp'" class="btn btn-white my-2" type="submit">Записаться</button>
+            </li>
+          </ul>
+        </div>
+        <button onclick="document.location='index.html#signUp'" class="btn btn-white my-2 btn-lg" type="submit">Записаться</button>
+      </nav>
+  
+  <!-- header Menu end -->
+    <h2 class="text-center my-4">Наши услуги</h2>
+
+    <div class="container mb-5">
+      <h3 class="text-center">Групповые занятия</h3>
+      <div class="row mt-3 services">
+        <div class="col-sm-5"><img src="/img/cervise1.jpg" alt="" class="w-100"></div>
+        <div class="col-7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores nostrum similique tempore voluptates. Maiores quis aut quas tempora debitis, animi deleniti doloremque eius, blanditiis dolorem tempore? Porro, rerum corrupti.</p>
+          <p>Группа подбирается по возрасту.</p>
+          <h4 class="priсe mb-3">Цена зависят от выбанной группы</h4>
+          <a href="#course"><button class="btn btn-orang">Посмотреть все группы</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <h3 class="text-center">Индивидуальные занятия с кинологом</h3>
+      <div class="row mt-3 services">
+        <div class="col-sm-5"><img src="/img/cervise2.jpg" alt="" class="w-100"></div>
+        <div class="col-7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores nostrum similique tempore voluptates. Maiores quis aut quas tempora debitis, animi deleniti doloremque eius, blanditiis dolorem tempore? Porro, rerum corrupti.</p>
+          <p>Подойдет для собак любого возраста.</p>
+          <h3 class="priсe ">Цены</h3>
+          <p>Одно занятие: <span class="priсe">1.500 рублей<span class="clue" data-title="Цена может меняться в зависимости от вашего местополжения">*</span></span></p>
+          <p>Абонемент на 5 занятий: <span class="priсe">6.500 рублей<span class="clue" data-title="Цена может меняться в зависимости от вашего местополжения">*</span></span></p>
+          <p>Абонемент на 10 занятий: <span class="priсe">10.000 рублей<span class="clue" data-title="Цена может меняться в зависимости от вашего местополжения">*</span></span></p>
+          <button onclick="document.location='index.html#signUp'" class="btn btn-orang">Записаться</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mb-5">
+      <h3 class="text-center">Передержка</h3>
+      <div class="row mt-3 services">
+        <div class="col-sm-5"><img src="/img/cervise3.jpg" alt="" class="w-100"></div>
+        <div class="col-7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores nostrum similique tempore voluptates. Maiores quis aut quas tempora debitis, animi deleniti doloremque eius, blanditiis dolorem tempore? Porro, rerum corrupti.</p>
+          <p>Возможна дрессировка во время проживания у кинолога.</p>
+          <h3 class="priсe ">Цена зависит от продолжительности и индивидуальных пожеланий</h3>
+          <button onclick="document.location='index.html#signUp'" class="btn btn-orang mt-3">Оставить заявку</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid gray-box py-3">
+      <h2 class="text-center" id="course">Группы и курсы</a></h2>
+      <div class="row mt-4">
+        <div class="col-md-3 d-flex flex-column align-items-center d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise1.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="mt-2 text-center servise" data-toggle="modal" data-target="#OKD"><h4>Общий курс дрессировки</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise2.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#YGS" ><h4>Управляемая городская собака</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise3.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#companion"><h4>Собака-компаньон</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise4.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#puppy"><h4>Курс послушания для щенков</h4></a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise5.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#trick"><h4>Трюковая дрессировка</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise6.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#agility"><h4>Аджилити</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise7.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#obediense"><h4>Обидиенс</h4></a>
+        </div>
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <img src="/img/serwise/servise8.jpg" alt="" class="rounded-circle w-100 p-3 servise-img">
+          <a class="text-center mt-2 servise" data-toggle="modal" data-target="#freestyle"><h4>Фристайл</h4></a>
+        </div>
+      </div>
+    </div>
+
+<!-- Общий курс дрессировки -->
+    <div class="modal fade" id="OKD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Общий курс дрессировки</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise1.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Общий курс дрессировки (сокращенно ОКД) — это программа дрессировки собак, разработанная отечественным кинологом Языковым Всеволодом Васильевичем в 1920-х годах. С того времени курс практически не изменялся, были внесены лишь отдельные правки. <br><br>
+                  В том или ином объеме общий курс дрессировки необходим любой собаке. В процессе занятий у животного вырабатывается послушание и ряд других полезных навыков, которые пригодятся как в повседневной жизни, так и в служебной деятельности.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Управляемая городская собака -->
+    <div class="modal fade" id="YGS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Управляемая городская собака</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise2.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Управляемая городская собака – это курс дрессировки, весьма популярный среди городских жителей. Целью УГС является воспитание собаки-компаньона, послушной и безопасной для окружающих.<br>
+                  УГС во многом напоминает ОКД, и только опытный кинолог сможет увидеть принципиальное отличие одного курса от другого. В экзамен по УГС входит проверка навыков, которые необходимы для комфортного проживания человека и собаки в условиях большого города. К этим навыкам относятся: <br>
+                  <ul class="info">
+                    <li>спокойное отношение к городскому шуму;</li>
+                    <li>отсутствие боязни перед поездками в транспорте;</li>
+                    <li>спокойное отношение к посторонним людям и животным;</li>
+                    <li>послушание.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Собака-компаньон -->
+    <div class="modal fade" id="companion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Собака-компаньон</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise3.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Данный курс не имеет норматива, имеет менее строгие нормы и включает в себя навыки необходимые для безопасной и комфортной жизни как собаки, так и владельца. <br><br>
+                  Помимо базовых навыков удиляем время трюковой дрессировке, которая способствует работе разных групп мышц и разнообразную смысловую нагрузку, что полезно  для нервой системы собаки.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Курс послушания для щенков -->
+    <div class="modal fade" id="puppy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Курс послушания для щенков</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise4.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Важно начать запиматься собак с самого раннего возраста, именно в этот период закладывается понятия для собаки что такое "хорошо", а что такое "плохо". <br><br>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae expedita quasi enim, rerum vero quod saepe libero veritatis odio vel incidunt est similique sequi voluptas architecto molestias ipsum eligendi neque!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Трюковая дрессировка -->
+    <div class="modal fade" id="trick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Трюковая дрессировка</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise5.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Трюковая дрессировка – очень полезная вещь. Здесь от питомца не требуется соответствие каким-то жестким критериям, как при сдаче нормативов, а в основу кладется игра. Трюковая дрессировка развивает интеллект собаки, уверенность в себе, а так как это игра, которая увлекательна и для вас, и для животного, улучшаются ваши взаимоотношения.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Аджилити -->
+    <div class="modal fade" id="agility" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Аджилити</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise6.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Считается, что дружба собаки и человека основывается на полном доверии и взаимопонимании. Именно способность животного чувствовать мысли и настроение хозяина, его готовность выполнить любое приказание говорит о полной гармонии в их взаимоотношениях. Аджилити – это прекрасный способ продемонстрировать и укрепить эту дружбу человека и его питомца, а также поддерживать собаку в отличной форме и направить ее неуемную энергию в правильное русло.<br><br>
+                  Сегодня аджилити представляет собой комплекс спортивных соревнований, заключающихся в скоростном преодолении ими полосы препятствий. В состязаниях принимают непосредственное участие как питомец, выполняющий упражнения, так и хозяин, отдающий команды жестами и голосом и направляющий своего подопечного, поэтому такие мероприятия носят командный характер. В основу этого спорта положен именно налаженный контакт между человеком и животным, качественная и глубокая дрессировка собаки.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Обидиенс -->
+    <div class="modal fade" id="obediense" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Обидиенс</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise7.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Обидиенс – международный норматив по послушанию собак, признанный во всем мире. Собака должна выполнить несколько упражнений под руководством проводника, причем в данном виде оценивается не только факт выполнения упражнения, но и то, с каким желанием работает собака.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Танцы с собаками -->
+    <div class="modal fade" id="freestyle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Фристайл</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row modal-servise">
+              <div class="col-xl-6"><img src="/img/serwise/servise8.jpg" alt="" class="w-100 mb-3"></div>
+              <div class="col-xl-6">
+                <p>
+                  Фристайл с собаками является одной из вершин искусства дрессировки. Филигранность выполнения таких упражнений требует от хозяина и его питомца полного взаимопонимания и глубочайшего доверия, достигаемых только длительной и терпеливой тренировкой. Однако результаты трудов превосходят все ожидания и дарят массу положительных эмоций человеку и собаке. Зрелищность и сложность сделала кинологический фристайл одним из самых любимых видов спорта как среди владельцев собак, так и среди зрителей. <br>
+                  Танцы с собаками или кинологический фристайл – это особая разновидность дрессировочных дисциплин, сочетающая в себе упражнение на послушание со зрелищными движениями и трюками, которые совершаются собакой в паре с человеком под музыку. Если в других видах собачьего спорта питомец – основное действующее лицо, чьи действия в основном и оцениваются, то здесь важна именно командная работа, требующая самоотдачи от хозяина и его подопечного.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close" data-dismiss="modal">Закрыть</button>
+            <button onclick="document.location='index.html#signUp'" type="button" class="btn btn-orang">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Footer start -->
+
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4 d-flex align-items-center"><i class="fa-brands fa-vk fa-5x" style="color: white;"></i></div>
+            <div class="col-4 d-flex justify-content-center align-items-center"><p style="font-weight: 300;">© 2023. DOGYES.RU️</p></div>
+            <div class="col-4 d-flex justify-content-end"><p style="font-weight: 300;"><b>Контакты:</b><br>+7(123) 456-78-90<br>+7(123) 456-78-90</p></div>
+          </div>
+        </div>
+      </footer>
+  
+  <!-- Footer end -->
+
+      <!-- иконки -->
+      <script src="https://kit.fontawesome.com/d2065f4b29.js" crossorigin="anonymous"></script>
+      <!-- мобильный навбар -->
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+  
+  </body>
+</html>
