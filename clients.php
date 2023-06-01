@@ -1,5 +1,5 @@
 <?php
-  $mysqli = mysqli_connect("localhost", "gafcrxug_0970", "123456", "gafcrxug_0970");
+  $mysqli = mysqli_connect(...);
 
   if ($mysqli == false){
     print("error");
